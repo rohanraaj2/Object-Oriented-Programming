@@ -18,16 +18,8 @@ class Bus(Vehicle):
 class Car(Vehicle):
     pass
 
-
 my_bus = Bus("School Volvo", 180, 12)
 my_car = Car("Audi Q5", 240, 18)
 
 my_bus.show()
 my_car.show()
-
-
-# Color: White, Vehicle name: School Volvo, Speed: 180, Mileage: 12
-# Color: White, Vehicle name: School Volvo, Speed: 180, Mileage: 12
-
-# Color: White, Vehicle name: Audi Q5, Speed: 240, Mileage: 18
-# Color: White, Vehicle name: Audi Q5, Speed: 240, Mileage: 18
