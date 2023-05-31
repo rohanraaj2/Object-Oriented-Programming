@@ -1,3 +1,5 @@
+# Packaging Helper Tool
+
 You got the task to implement a packaging helper tool for your company to estimate how many boxes can be put into a container. The tool should be implemented in Java. The boxes are instances of classes which form a
 class hierarchy. This hierarchy can be described as follows:
 
@@ -11,9 +13,9 @@ class hierarchy. This hierarchy can be described as follows:
 
 • Your company only uses two predefined basic box sizes:
 
-– A BigBox has width 10, height 5 and depth 5.
+  – A BigBox has width 10, height 5 and depth 5.
 
-– A SmallBox has width 3, height 2 and depth 1.
+  – A SmallBox has width 3, height 2 and depth 1.
 
 • Both BigBox and SmallBox are a Box.
 
