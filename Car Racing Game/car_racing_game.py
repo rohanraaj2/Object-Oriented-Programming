@@ -1,3 +1,10 @@
+class main():
+    def __init__(self, car_array):
+        for car_number in range(20):
+            if car_number < 10:
+                car = DefaultCar()
+            elif car_number >= 10:
+                car = RocketCar()
 class Car:
     # A class representing a car object.
 
